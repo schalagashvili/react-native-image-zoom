@@ -185,7 +185,7 @@ export default class ImageViewer extends React.Component<ImageZoomProps, ImageZo
         this.verticalWholeCounter += diffY;
 
         if (Math.abs(this.horizontalWholeCounter) > 5 || Math.abs(this.verticalWholeCounter) > 5) {
-          clearTimeout(this.longPressTimeout as NodeJS.Timeout);
+          clearTimeout(this.longPressTimeout as any);
         }
 
         if (this.props.panToMove) {

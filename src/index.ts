@@ -1,4 +1,4 @@
-import ImageZoom from './image-zoom/image-zoom.component';
+import ImageZoom from "./ImageZoom";
 
 export default ImageZoom;
-export * from './image-zoom/image-zoom.type';
+export * from "./types";

@@ -38,9 +38,9 @@ export default class ImageViewer extends React.Component<ImageZoomProps, ImageZo
   private centerDiffX = 0;
   private centerDiffY = 0;
 
-  private singleClickTimeout: NodeJS.Timeout | undefined;
+  private singleClickTimeout: any;
 
-  private longPressTimeout: NodeJS.Timeout | undefined;
+  private longPressTimeout: any;
 
   private lastClickTime = 0;
 
